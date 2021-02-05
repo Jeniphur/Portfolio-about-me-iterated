@@ -1,0 +1,493 @@
+.navigation{
+  position: fixed;
+  height: 133px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #D7ECD9;
+  z-index: 10;
+}
+
+.topnav {
+    margin-left: 122px;
+    margin-right: 122px;
+    font-family: 'Lato';
+}
+
+.topnav a {
+    float: right;
+    color: #303030;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 24px;
+    text-decoration: none;
+}
+  
+.topnav a:hover {
+    color: #303030;
+    font-weight: 700;
+}
+  
+.topnav a.active {
+    color: #303030;
+    font-weight: 700;
+}
+  
+.absolute {
+    position: absolute;
+    margin-left: 122px;
+    top: 50px;
+}
+  
+.aboutme{
+    position: relative;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 67px;
+    width: auto;
+}
+
+.contactme{
+  position: relative;
+  margin-top: -30px;
+  width: auto;
+  text-align: left;
+}
+
+.body{
+    position: relative;
+    float: left;
+    color: #303030;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 52px;
+    font-size: 24px;
+}
+
+.header{
+    font-family: 'Judson';
+    font-size: 72px;
+    text-align: left;
+    color: #303030;
+    text-decoration: none;
+    width: 100%;
+}
+
+.subheader{
+  position: relative;
+  font-family: 'Lato';
+  font-size: 48px;
+  text-align: left;
+  color: #303030;
+  text-decoration: none;
+  width: 100%;
+  font-weight: 500;
+}
+
+.paragraph{
+    position: relative;
+    font-family: 'Lato';
+    font-size: 24px;
+    text-align: left;
+    color: #303030;
+}
+
+.paragraphGrey{
+  position: relative;
+  font-family: 'Lato';
+  font-size: 24px;
+  text-align: left;
+  color: #303030;
+  opacity: 75%;
+}
+
+.paragraphCenter{
+  position: relative;
+  font-family: 'Lato';
+  font-size: 24px;
+  text-align: center;
+  color: #303030;
+}
+
+.miniText{
+  position: relative;
+  font-family: 'Lato';
+  font-size: 18px;
+  text-align: left;
+  color: #303030;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.minitextCenter{
+  font-family: 'Lato';
+  font-size: 18px;
+  text-align: center;
+  color: #303030;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.spaced{
+  line-height: 50px;
+}
+
+.dropshadow{
+  filter: drop-shadow(0px 4px 4px #BFBFBF);
+}
+
+.line{
+  height: 4px;
+  width: auto;
+  border-radius: 2px;
+  background-color: #CBD2F5;
+}
+
+.cardsection{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.cards{
+  height: auto;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #D7ECD9;
+  border-radius: 5px;
+  margin-right: 21px;
+}
+
+.containerCharts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.charts {
+  width: auto;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Lato';
+  font-size: 24px;
+}
+
+input[type=submit] {
+  background-color: #FFB6B9;
+  color: #303030;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  width: 224px;
+  height: 50px;
+  float: right;
+  filter: drop-shadow(0px 4px 4px #BFBFBF);
+}
+
+input[type=submit]:hover {
+  background-color: #CBD2F5;
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  width: 224px;
+  height: 50px;
+  float: right;
+  filter: drop-shadow(0px 4px 4px #BFBFBF);
+}
+
+.footer{
+  background-color: #CBD2F5;
+  font-family: 'Lato';
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cimages{
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.fimages{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-right: 12.5px;
+  padding-left: 12.5px;
+}
+
+.copyright{
+  position: absolute;
+  display: inline-block;
+  padding-top: 65px;
+}
+
+/*Progress Circle*/
+
+.circular{
+  height: 200px;
+  width: 200px;
+  /*position: relative;*/
+
+}
+.circular .inner, .circular .outer, .circular .circle{
+  position: absolute;
+  z-index: 6;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.circular .inner{
+  height: 140px;
+  width: 140px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+.circular .circle{
+  z-index: 1;
+}
+.circular .numb{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb80{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb75{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb70{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb65{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb60{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.numb50{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 32px;
+  font-weight: 500;
+  color: #303030;
+}
+.circular .bar{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #303030;
+  border-radius: 100%;
+  clip: rect(0px, 200px, 200px, 100px);
+}
+.circle .bar .progress{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  clip: rect(0px, 100px, 200px, 0px);
+}
+.circle .bar .progress, .dot span{
+  background: #D7ECD9;
+}
+
+.circle .left .progress{
+  z-index: 1;
+  animation: left 2s linear both;
+}
+
+.circle .left1 .progress{
+  z-index: 1;
+  animation: left1 2s linear both;
+}
+
+@keyframes left1{
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+.circle .right1{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right2{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right3{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right4{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right5{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right6{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right80{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right75{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right70{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right65{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right60{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right50{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+
+.circle .right80 .progress{
+  animation: right80 2s linear both;
+  animation-delay: 2s;
+}
+.circle .right75 .progress{
+  animation: right75 2s linear both;
+  animation-delay: 2s;
+}
+.circle .right70 .progress{
+  animation: right70 2s linear both;
+  animation-delay: 2s;
+}.circle .right65 .progress{
+  animation: right65 2s linear both;
+  animation-delay: 2s;
+}.circle .right60 .progress{
+  animation: right60 2s linear both;
+  animation-delay: 2s;
+}
+.circle .right50 .progress{
+  animation: right50 2s linear both;
+  animation-delay: 2s;
+}
+
+@keyframes right80{
+  100%{
+    transform: rotate(108deg);
+  }
+}
+@keyframes right75{
+  100%{
+    transform: rotate(90deg);
+  }
+}
+@keyframes right70{
+  100%{
+    transform: rotate(72deg);
+  }
+}@keyframes right65{
+  100%{
+    transform: rotate(54deg);
+  }
+}@keyframes right60{
+  100%{
+    transform: rotate(36deg);
+  }
+}@keyframes right50{
+  100%{
+    transform: rotate(0deg);
+  }
+}
+.circle .dot{
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 10px;
+  margin-top: -5px;
+  animation: dot 4s linear both;
+  transform-origin: 0% 50%;
+}
+
