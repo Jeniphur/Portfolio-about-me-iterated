@@ -13,7 +13,7 @@ var repeat = 0;
   $(".right3").addClass('right70');
   $(".right4").addClass('right65');
   $(".right5").addClass('right60');
-  $(".right6").addClass('right50');
+  $(".right6").addClass('right55');
 
 
   //Progress Circle 80%//
@@ -82,10 +82,10 @@ var repeat = 0;
     }
   
     //Progress Circle 50%//
-    {const numb = document.querySelector(".numb50");
+    {const numb = document.querySelector(".numb55");
         let counter = 0;
         setInterval(()=>{
-            if(counter == 50){
+            if(counter == 55){
               clearInterval();
             }else{
               counter+=1;

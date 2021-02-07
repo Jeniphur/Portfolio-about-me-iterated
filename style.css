@@ -137,6 +137,11 @@
   line-height: 50px;
 }
 
+.textMargin{
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
 .dropshadow{
   filter: drop-shadow(0px 4px 4px #BFBFBF);
 }
@@ -227,6 +232,7 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0 !important;
 }
 
 .cimages{
@@ -335,7 +341,7 @@ input[type=submit]:hover {
   font-weight: 500;
   color: #303030;
 }
-.numb50{
+.numb55{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -424,7 +430,7 @@ input[type=submit]:hover {
   z-index: 3;
   transform: rotate(180deg);
 }
-.circle .right50{
+.circle .right55{
   z-index: 3;
   transform: rotate(180deg);
 }
@@ -447,8 +453,8 @@ input[type=submit]:hover {
   animation: right60 2s linear both;
   animation-delay: 2s;
 }
-.circle .right50 .progress{
-  animation: right50 2s linear both;
+.circle .right55 .progress{
+  animation: right55 2s linear both;
   animation-delay: 2s;
 }
 
@@ -474,9 +480,9 @@ input[type=submit]:hover {
   100%{
     transform: rotate(36deg);
   }
-}@keyframes right50{
+}@keyframes right55{
   100%{
-    transform: rotate(0deg);
+    transform: rotate(18deg);
   }
 }
 .circle .dot{
