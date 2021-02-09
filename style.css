@@ -37,9 +37,30 @@
 }
   
 .absolute {
-    position: absolute;
-    margin-left: 122px;
-    top: 50px;
+  margin-top: 27px;
+  margin-left: 122px;
+  background-image: url('avatar-purple-bg.svg');
+}
+
+.avatar{
+  background-image: url('avatar-red-bg.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  width: 148.14px;
+  height: 155px;
+  margin-top: 4px;
+}
+.avatar:hover {
+  opacity: 1;
+  cursor: pointer;
 }
   
 .aboutme{
